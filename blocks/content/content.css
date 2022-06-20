@@ -1,0 +1,11 @@
+.content {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 92px;
+  background-color: #2A2C2F;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
