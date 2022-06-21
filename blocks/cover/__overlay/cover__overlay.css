@@ -1,0 +1,34 @@
+.cover__overlay {
+	text-decoration: none;
+	background-image: url(../../../images/dog-trains.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 32px;
+	min-height: 740px;
+	max-width: 1184px;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+	/* aspect-ratio: auto; */
+	/* object-fit: contain; */
+}
+.cover__overlay::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	background-color: #2A2C2F;
+	opacity: .3;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.cover__overlay:hover::before {
+	cursor: pointer;
+	opacity: 0.8;
+}

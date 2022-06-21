@@ -1,0 +1,6 @@
+.dog-trains {
+	/* padding: 0 48px; */
+	display: grid;
+	justify-content: space-around;
+	width: 100%;
+}

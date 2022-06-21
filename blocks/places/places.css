@@ -1,5 +1,10 @@
 .places {
-	padding: 0 148px;
+  margin: 0;
+	/* padding: 0 148px; */
+  display: grid;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
 }
 @media (max-width: 1023px) {
   .gallery__photos {
