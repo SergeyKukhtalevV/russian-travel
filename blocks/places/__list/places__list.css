@@ -1,0 +1,11 @@
+.places__list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	row-gap: 80px;
+	max-width: 984px;
+	min-height: 660px;
+	align-items: center;
+}

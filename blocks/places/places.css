@@ -1,9 +1,11 @@
-.gallery {
-	box-sizing: border-box;
-	padding: 0 48px;
-	margin: 0;
+.places {
+	padding: 0 148px;
 }
-
+@media (max-width: 1023px) {
+  .gallery__photos {
+		padding: 0 48px;
+  }
+}
 @media (max-width: 767px) {
   .gallery__photos {
 		padding: 0 24px;
@@ -11,6 +13,6 @@
 }
 @media (max-width: 319px) {
   .gallery__photos {
-		padding: 0 16px;
+		padding: 0;
   }
 }
