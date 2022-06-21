@@ -1,4 +1,6 @@
 .footer {
+	box-sizing: border-box;
+	padding-bottom: 24px;
 	display: grid;
 	justify-content: space-around;
 	width: 100%;

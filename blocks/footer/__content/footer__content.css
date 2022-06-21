@@ -1,6 +1,9 @@
 .footer__content {
+	box-sizing: border-box;
 	max-width: 1184px;
 	width: 100%;
 	display: grid;
 	justify-content: space-between;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: baseline;
 }
