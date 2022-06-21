@@ -3,30 +3,33 @@
 	margin: 0;
 	list-style: none;
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+	/* grid-template-columns: repeat(4, 1fr); */
+	grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+
+	/* grid-template-rows: repeat(3, 1fr); */
+	grid-auto-rows: 1fr;
 	gap: 20px;
 }
 
 @media (max-width: 1023px) {
 	.gallery__photos {
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(4, 1fr);
+		/* grid-template-columns: repeat(3, 1fr); */
+		/* grid-template-rows: repeat(4, 1fr); */
 		gap: 14px;
 	}
 }
 
 @media (max-width: 767px) {
 	.gallery__photos {
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(6, 1fr);
+		/* grid-template-columns: repeat(2, 1fr); */
+		/* grid-template-rows: repeat(6, 1fr); */
 		gap: 16px;
 	}
 }
 @media (max-width: 319px) {
 	.gallery__photos {
-		grid-template-columns: repeat(1, 1fr);
-		grid-template-rows: repeat(12, 1fr);
+		/* grid-template-columns: repeat(1, 1fr); */
+		/* grid-template-rows: repeat(12, 1fr); */
 		gap: 12px;
 	}
 }
