@@ -1,0 +1,6 @@
+.footer__content {
+	max-width: 1184px;
+	width: 100%;
+	display: grid;
+	justify-content: space-between;
+}
