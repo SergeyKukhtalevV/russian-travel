@@ -6,18 +6,18 @@
   box-sizing: border-box;
   width: 100%;
 }
-@media (max-width: 1023px) {
-  .gallery__photos {
+/* @media (max-width: 1023px) {
+  .places {
 		padding: 0 48px;
   }
 }
 @media (max-width: 767px) {
-  .gallery__photos {
+  .places {
 		padding: 0 24px;
   }
 }
 @media (max-width: 319px) {
-  .gallery__photos {
+  .places {
 		padding: 0;
   }
-}
+} */

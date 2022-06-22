@@ -1,7 +1,14 @@
 .promo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 28px;
+}
+
+@media screen and (max-width: 767px) {
+	.promo {
+		padding-top: 16px;
+	}
 }
