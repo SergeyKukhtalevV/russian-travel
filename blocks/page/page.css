@@ -8,10 +8,9 @@
   padding: 28px 0 24px;
 	display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #2A2C2F;
 }
 *{
-	border: 1px white solid;
+	/* border: .5px white solid; */
 }

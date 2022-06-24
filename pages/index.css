@@ -12,8 +12,8 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__train-way/lead__train-way.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 /* intro */
 @import url(../blocks/intro/intro.css);
@@ -41,6 +41,7 @@
 @import url(../blocks/dog-trains/dog-trains.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__content/cover__content.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 /* footer */

@@ -1,9 +1,9 @@
 .cover__overlay {
 	text-decoration: none;
 	background-image: url(../../../images/dog-trains.png);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	/* background-position: center center; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -15,7 +15,7 @@
 	position: relative;
 	z-index: 0;
 	/* aspect-ratio: auto; */
-	/* object-fit: contain; */
+	object-fit: contain;
 }
 .cover__overlay::before {
 	content: '';
