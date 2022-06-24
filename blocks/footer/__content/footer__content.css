@@ -9,3 +9,24 @@
 	grid-template-columns: repeat(2, 50%);
 	align-items: baseline;
 }
+
+@media screen and (max-width: 1279px) {
+	.footer__content {
+		padding: 0 48px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.footer__content {
+		padding: 0 24px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer__content {
+		padding: 0;
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: start;
+		margin-left: 16px;
+	}
+}

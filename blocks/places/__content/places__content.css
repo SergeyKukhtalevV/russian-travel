@@ -8,3 +8,9 @@
 	row-gap: 26px;
 	width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+	.places__content {
+		padding: 0 16px;
+	}
+}
