@@ -7,6 +7,18 @@
 	row-gap: 80px;
 	max-width: 984px;
 	width: 100%;
-	/* min-height: 660px; */
 	align-items: center;
+	padding: 0;
+}
+
+@media (max-width: 767px) {
+	.places__list {
+		row-gap: 72px;
+	}
+}
+
+@media (max-width: 319px) {
+	.places__list {
+		row-gap: 50px;
+	}
 }

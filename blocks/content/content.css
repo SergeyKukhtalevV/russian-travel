@@ -14,11 +14,13 @@
 @media screen and (max-width: 1023px) {
 	.content {
 		padding-bottom: 88px;
+		row-gap: 88px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.content {
 		padding-bottom: 64px;
+		row-gap: 64px;
 	}
 }
