@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-Alt-H1
+# Alt-H1
 
 Проектная работа № 2 (Спринт № 2)
 Подготовлена: Кухталев С.В.
@@ -21,4 +21,4 @@ Alt-H1
 7. Изображения оптимизированы и им задан атрибут alt со значениями на языке  проекта.
 8. Проект прошел проверку в [html-валидаторе:](https://validator.w3.org/nu/).
 
-Ссылка на репозитарий проекта: [git@github.com:SergeyKukhtalevV/russian-travel.git].
+Ссылка на проект: [https://sergeykukhtalevv.github.io/russian-travel/intex.html].
