@@ -6,14 +6,8 @@
 	justify-content: space-between;
 	margin: 0;
 	max-width: 1184px;
-	padding: 0;
+	padding: 0 48px;
 	width: 100%;
-}
-
-@media screen and (max-width: 1279px) {
-	.footer__content {
-		padding: 0 48px;
-	}
 }
 
 @media screen and (max-width: 1023px) {
