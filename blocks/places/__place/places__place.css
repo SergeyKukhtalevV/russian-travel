@@ -1,27 +1,27 @@
 .places__place {
-	padding: 0;
-	margin: 0;
-	max-width: 984px;
-	width: 100%;
 	display: grid;
 	gap: 48px 40px;
 	grid-template-columns: repeat(2, 1fr);
-	padding: 0 148px;
+	margin: 0;
+	max-width: 984px;
 	overflow: hidden;
+	padding: 0 148px;
+	padding: 0;
+	width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
 	.places__place {
-		max-width: 928px;
 		gap: 48px 32px;
+		max-width: 928px;
 		padding: 0 48px;
 	}
 }
 
 @media screen and (max-width: 1023px) {
 	.places__place {
-		max-width: 720px;
 		gap: 48px 28px;
+		max-width: 720px;
 		padding: 0 24px;
 	}
 }
