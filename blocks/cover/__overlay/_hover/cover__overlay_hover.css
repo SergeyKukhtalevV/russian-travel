@@ -1,3 +1,4 @@
 .cover__overlay_hover:hover::before {
-	opacity: 0.8;
+	opacity: .8;
+	cursor: pointer;
 }

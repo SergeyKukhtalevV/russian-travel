@@ -8,15 +8,11 @@
 	height: 0;
 	justify-content: center;
 	object-fit: contain;
-	padding-bottom: 62.5%;
+	padding: 0 0 62.5% 0;
 	position: relative;
 	row-gap: 32px;
+	margin: 0;
 	text-decoration: none;
-	width: 1184px;
+	width: 100%;
 	z-index: 0;
-}
-@media screen and (max-width: 1279px) {
-	.cover__overlay{
-		width: 100vw;
-	}
 }
