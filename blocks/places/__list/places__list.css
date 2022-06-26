@@ -4,20 +4,19 @@
 	flex-direction: column;
 	list-style: none;
 	margin: 0;
-	max-width: 984px;
-	padding: 0;
+	max-width: 1280px;
 	padding: 0;
 	row-gap: 80px;
 	width: 100%;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 1023px) {
 	.places__list {
 		row-gap: 72px;
 	}
 }
 
-@media (max-width: 319px) {
+@media screen and (max-width: 767px) {
 	.places__list {
 		row-gap: 50px;
 	}
