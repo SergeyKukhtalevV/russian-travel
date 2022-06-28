@@ -7,3 +7,9 @@
 	padding: 0;
 	text-align: right;
 }
+
+@media screen and (max-width: 767px) {
+	.footer__author {
+		line-height: 100%;
+	}
+}
