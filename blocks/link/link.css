@@ -1,4 +1,4 @@
-.link_hover:hover {
+.link:hover {
 	cursor: pointer;
 	opacity: .8;
 }

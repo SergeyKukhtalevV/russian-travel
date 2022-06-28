@@ -2,11 +2,27 @@
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	margin-top: 62.5%;
+	/* margin-top: 62.5%; */
 	row-gap: 32px;
+	position: relative;
+	top: 370px;
 }
+
+@media screen and (max-width: 1279px) {
+	.cover__content {
+		top: 320px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.cover__content {
+		top: 240px;
+	}
+}
+
 @media screen and (max-width: 767px) {
-	.cover__content{
+	.cover__content {
+		top: 100px;
 		row-gap: 16px;
 	}
 }
