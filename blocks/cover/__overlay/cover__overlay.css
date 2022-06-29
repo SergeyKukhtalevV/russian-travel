@@ -30,3 +30,7 @@
 	transition: opacity .3s ease-in-out;
 	z-index: -1;
 }
+.cover__overlay:hover::before {
+	cursor: pointer;
+	opacity: .8;
+}

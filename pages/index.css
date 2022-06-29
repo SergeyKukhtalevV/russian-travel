@@ -39,8 +39,7 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__content/places__content.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-/* dog-trains */
-@import url(../blocks/dog-trains/dog-trains.css);
+/* cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__overlay/_hover/cover__overlay_hover.css);
@@ -49,7 +48,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
